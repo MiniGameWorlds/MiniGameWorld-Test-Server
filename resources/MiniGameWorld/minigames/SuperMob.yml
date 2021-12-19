@@ -1,0 +1,30 @@
+SuperMob:
+  title: SuperMob
+  min-player-count: 2
+  max-player-count: 5
+  waiting-time: 30
+  time-limit: 120
+  active: true
+  icon: ZOMBIE_HEAD
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -24.392951019267826
+    y: 157.0
+    z: -11.896898078355976
+    pitch: 10.800106
+    yaw: 90.74982
+  tutorial:
+  - 'Hit Super Mob: +(damage)'
+  custom-data:
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET

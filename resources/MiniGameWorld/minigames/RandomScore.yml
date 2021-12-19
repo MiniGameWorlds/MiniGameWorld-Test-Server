@@ -1,0 +1,30 @@
+RandomScore:
+  title: RandomScore
+  min-player-count: 2
+  max-player-count: 4
+  waiting-time: 10
+  time-limit: 20
+  active: true
+  icon: DISPENSER
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -41.870951183310666
+    y: 157.0
+    z: 13.072841631916619
+    pitch: -6.599994
+    yaw: -1.8010254
+  tutorial:
+  - 'Sneak: get random score'
+  custom-data:
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET

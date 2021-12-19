@@ -1,0 +1,50 @@
+PassMob:
+  title: PassMob
+  min-player-count: 2
+  max-player-count: 8
+  waiting-time: 20
+  time-limit: 120
+  active: true
+  icon: OAK_FENCE
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.11985805570092
+    y: 157.0
+    z: 14.412873770799294
+    pitch: -0.6000138
+    yaw: -87.75256
+  tutorial:
+  - At the game end, winner is the team that has less mobs
+  custom-data:
+    redLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: 26.0
+      y: 157.0
+      z: 10.0
+      pitch: 0.0
+      yaw: 0.0
+    blueLocation:
+      ==: org.bukkit.Location
+      world: world
+      x: 25.0
+      y: 157.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+    mobSpawnDelay: 15
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: false
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    groupChat: true
+    teamPvp: true
+    teamRegisterMode: FAIR_FILL

@@ -1,0 +1,35 @@
+Bridge:
+  title: Bridge
+  min-player-count: 2
+  max-player-count: 4
+  waiting-time: 20
+  time-limit: 180
+  active: true
+  icon: REPEATER
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -50.30143003440898
+    y: 157.0
+    z: 0.4470779091447753
+    pitch: 11.699828
+    yaw: -91.95211
+  tutorial:
+  - Don't fall down from bridge
+  - Use skills with RIGHT_CLICK items
+  custom-data:
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: FISHING_ROD
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: true
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET

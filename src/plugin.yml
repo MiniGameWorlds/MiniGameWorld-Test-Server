@@ -1,0 +1,5 @@
+name: MiniGameWorld-Test
+main: com.worldbiomusic.minigameworldtest.MiniGameWorldTestMain
+version: 1.0
+author: worldbiomusic
+api-version: 1.14

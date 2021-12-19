@@ -1,0 +1,32 @@
+RockScissorPaper:
+  title: RSP
+  min-player-count: 2
+  max-player-count: 2
+  waiting-time: 15
+  time-limit: 30
+  active: true
+  icon: SHEARS
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -37.8354510584216
+    y: 160.84185323876338
+    z: 0.3862905696369093
+    pitch: 0.89999205
+    yaw: 89.54877
+  tutorial:
+  - 'enter chat: R or S or P'
+  - Result will be appeared at the end
+  - selection can be changed
+  custom-data:
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET

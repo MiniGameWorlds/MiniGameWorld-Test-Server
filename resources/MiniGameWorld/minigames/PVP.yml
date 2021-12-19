@@ -1,0 +1,52 @@
+PVP:
+  title: PVP
+  min-player-count: 2
+  max-player-count: 5
+  waiting-time: 30
+  time-limit: 120
+  active: true
+  icon: STONE_SWORD
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -24.495412277481673
+    y: 160.0
+    z: 12.42264804369194
+    pitch: 7.8000712
+    yaw: 88.20009
+  tutorial:
+  - 'kill: +1'
+  custom-data:
+    health: 30
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: ARROW
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: COOKED_PORKCHOP
+      amount: 10
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GOLDEN_APPLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: WOODEN_AXE
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: true
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RED

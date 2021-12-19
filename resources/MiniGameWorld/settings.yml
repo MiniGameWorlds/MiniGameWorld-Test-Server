@@ -1,0 +1,5 @@
+settings:
+  minigame-sign: true
+  message-prefix: §lMiniGameWorld§r
+  debug-mode: false
+  backup-data-save-delay: 60

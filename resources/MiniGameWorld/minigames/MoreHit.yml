@@ -1,0 +1,33 @@
+MoreHit:
+  title: MoreHit
+  min-player-count: 2
+  max-player-count: 6
+  waiting-time: 20
+  time-limit: 60
+  active: true
+  icon: STICK
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 25.088700620450247
+    y: 157.0
+    z: 0.2659452144928756
+    pitch: 0.5999994
+    yaw: 179.69734
+  tutorial:
+  - 'Hit other team member: +1'
+  custom-data:
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: true
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    groupChat: true
+    teamPvp: true
+    teamRegisterMode: NONE

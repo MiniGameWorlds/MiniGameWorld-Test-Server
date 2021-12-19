@@ -1,0 +1,33 @@
+ScoreClimbing:
+  title: ScoreClimbing
+  min-player-count: 2
+  max-player-count: 4
+  waiting-time: 20
+  time-limit: 60
+  active: true
+  icon: OAK_STAIRS
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -42.80537455529769
+    y: 158.0
+    z: -15.811254732797389
+    pitch: 3.2999961
+    yaw: -44.40271
+  tutorial:
+  - 'Every 1 sec: score get to plus until random time and then score get to minus
+    until game end'
+  - 'Right-Click: check current score(max: 3)'
+  - 'Sneak: stop Game and check score'
+  custom-data:
+    chatting: true
+    score-notifying: false
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET

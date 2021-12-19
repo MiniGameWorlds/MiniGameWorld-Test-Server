@@ -1,0 +1,52 @@
+FitTool:
+  title: FitTool
+  min-player-count: 1
+  max-player-count: 1
+  waiting-time: 10
+  time-limit: 30
+  active: true
+  icon: STONE_PICKAXE
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 12.466397145734836
+    y: 157.0
+    z: 25.608389946102317
+    pitch: -1.050006
+    yaw: 1.1116943
+  tutorial:
+  - Break blocks with fit tools
+  - 'Breaking block: +1'
+  custom-data:
+    blocks:
+    - COBWEB
+    - OAK_WOOD
+    - COBBLESTONE
+    - DIRT
+    pos1:
+      ==: org.bukkit.Location
+      world: world
+      x: 15.0
+      y: 159.0
+      z: 31.0
+      pitch: 0.0
+      yaw: 0.0
+    pos2:
+      ==: org.bukkit.Location
+      world: world
+      x: 9.0
+      y: 157.0
+      z: 31.0
+      pitch: 0.0
+      yaw: 0.0
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
