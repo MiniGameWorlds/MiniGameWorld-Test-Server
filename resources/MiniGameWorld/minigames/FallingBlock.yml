@@ -6,6 +6,7 @@ FallingBlock:
   time-limit: 120
   active: true
   icon: SAND
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -47,3 +48,5 @@ FallingBlock:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: false
+    player-hurt: true

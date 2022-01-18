@@ -6,6 +6,7 @@ Bridge:
   time-limit: 180
   active: true
   icon: REPEATER
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -33,3 +34,5 @@ Bridge:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: false
+    player-hurt: true

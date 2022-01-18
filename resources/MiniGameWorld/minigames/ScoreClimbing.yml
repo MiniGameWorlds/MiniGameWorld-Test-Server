@@ -6,6 +6,7 @@ ScoreClimbing:
   time-limit: 60
   active: true
   icon: OAK_STAIRS
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -31,3 +32,5 @@ ScoreClimbing:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: false
+    player-hurt: true

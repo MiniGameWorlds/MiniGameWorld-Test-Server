@@ -1,51 +1,41 @@
-PVP:
-  title: PVP
-  min-player-count: 2
-  max-player-count: 5
-  waiting-time: 30
-  time-limit: 120
+HitMob:
+  title: HitMob
+  min-player-count: 1
+  max-player-count: 1
+  waiting-time: 5
+  time-limit: 60
   active: true
-  icon: STONE_SWORD
+  icon: WOODEN_SWORD
   view: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: -24.495412277481673
+    x: -11.498643104562499
     y: 160.0
-    z: 12.42264804369194
-    pitch: 7.8000712
-    yaw: 88.20009
+    z: 25.995429608291317
+    pitch: 0.8999923
+    yaw: -89.85339
   tutorial:
-  - 'kill: +1'
+  - ''
+  - ''
   custom-data:
-    health: 30
-    items:
+    tools:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: STONE_SWORD
+      type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: ARROW
-      amount: 32
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: COOKED_PORKCHOP
-      amount: 10
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: GOLDEN_APPLE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: WOODEN_AXE
+    mob: SKELETON
     chatting: true
     score-notifying: true
     block-break: false
     block-place: false
-    pvp: true
-    pve: false
+    pvp: false
+    pve: true
     inventory-save: true
     minigame-respawn: true
     live-gamemode: SURVIVAL

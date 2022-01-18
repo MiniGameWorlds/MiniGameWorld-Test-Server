@@ -10,8 +10,8 @@
 
 ## 2. Move resources
 1. Move `wbmMC`, `MiniGameWorld`, `AllMiniGames` or `Each minigames`, `MiniGameWorld-Test-Server/resources/MiniGameWorld-Test.jar` to `plugins` directory
-2. Replace `world` directory with `MiniGameWorld-Test-Server/resources/world`
-3. After server starts, replace `plugins/MiniGameWorld` directory with `MiniGameWorld-Test-Server/resources/MiniGameWorld` and input `/minigame reload` command in console
+2. Move `MiniGameWorld-Test-Server/resources/world` to your bukkit directory
+3. After server starts, move `MiniGameWorld-Test-Server/resources/MiniGameWorld` to `plugins` directory
 
 ## 3. Enjoy
 

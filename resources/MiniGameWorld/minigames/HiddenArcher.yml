@@ -6,6 +6,7 @@ HiddenArcher:
   time-limit: 180
   active: true
   icon: BOW
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -30,6 +31,8 @@ HiddenArcher:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    groupChat: false
+    groupChat: true
     teamPvp: true
     teamRegisterMode: FAIR_FILL
+    food-level-change: false
+    player-hurt: true

@@ -162,7 +162,7 @@ public class ManagementListener implements Listener {
 		if (b == null) {
 			return;
 		}
-		
+
 		if (e.getAction() == Action.RIGHT_CLICK_BLOCK || e.getAction() == Action.LEFT_CLICK_BLOCK) {
 			if (b.getType() == Material.CAKE) {
 				e.setCancelled(true);
@@ -192,7 +192,7 @@ public class ManagementListener implements Listener {
 		motd += "" + ChatColor.BLUE + ChatColor.BOLD + "me";
 		e.setMotd(motd);
 	}
-	
+
 }
 
 //

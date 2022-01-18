@@ -1,33 +1,34 @@
-RandomScore:
-  title: RandomScore
+OnePunch:
+  title: OnePunch
   min-player-count: 2
-  max-player-count: 4
+  max-player-count: 10
   waiting-time: 10
-  time-limit: 20
+  time-limit: 60
   active: true
-  icon: DISPENSER
+  icon: GRASS
   view: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: -41.870951183310666
-    y: 157.0
-    z: 13.072841631916619
-    pitch: -6.599994
-    yaw: -1.8010254
+    x: -63.55853462209941
+    y: 160.0
+    z: 0.5266862874670992
+    pitch: 3.2998214
+    yaw: 91.49768
   tutorial:
-  - 'Sneak: get random score'
+  - 'Hit other player: +1'
+  - 'Hit by other player: die'
   custom-data:
     chatting: true
     score-notifying: true
     block-break: false
     block-place: false
     pvp: false
-    pve: true
+    pve: false
     inventory-save: true
     minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
     food-level-change: true
-    player-hurt: true
+    player-hurt: false

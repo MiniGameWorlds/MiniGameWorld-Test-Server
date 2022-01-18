@@ -1,5 +1,8 @@
 settings:
-  minigame-sign: true
   message-prefix: §lMiniGameWorld§r
-  debug-mode: false
   backup-data-save-delay: 60
+  debug-mode: true
+  isolated-chat: true
+  isolated-join-quit-message: true
+  join-sign-caption: '[MiniGame]'
+  leave-sign-caption: '[Leave MiniGame]'

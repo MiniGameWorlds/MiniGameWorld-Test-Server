@@ -1,40 +1,42 @@
-PassMob:
-  title: PassMob
+Dodgeball:
+  title: Dodgeball
   min-player-count: 2
-  max-player-count: 8
-  waiting-time: 20
-  time-limit: 120
+  max-player-count: 4
+  waiting-time: 3
+  time-limit: 30
   active: true
-  icon: OAK_FENCE
+  icon: FIRE_CHARGE
   view: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: 25.11985805570092
-    y: 157.0
-    z: 14.412873770799294
-    pitch: -0.6000138
-    yaw: -87.75256
+    x: 0.5
+    y: 159.875
+    z: 0.5
+    pitch: -0.6000001
+    yaw: 6.3000007
   tutorial:
-  - At the game end, winner is the team that has less mobs
+  - '공격자: 한 명이 맞출 시 1점 추가'
+  - '수비자: 공을 잡으면 1점 추가'
+  - '제한 시간 내에 한 팀의 팀원이 모두 아웃되면 게임 종료 '
+  - 만약 제한 시간 내에 안 끝날 시 점수가 높은 팀이 승
   custom-data:
     redLocation:
       ==: org.bukkit.Location
       world: world
-      x: 26.0
-      y: 157.0
-      z: 10.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     blueLocation:
       ==: org.bukkit.Location
       world: world
-      x: 25.0
-      y: 157.0
-      z: 14.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
-    mobSpawnDelay: 15
     chatting: true
     score-notifying: true
     block-break: false
@@ -42,12 +44,12 @@ PassMob:
     pvp: false
     pve: true
     inventory-save: true
-    minigame-respawn: false
+    minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: true
+    player-hurt: true
     groupChat: true
     teamPvp: true
     teamRegisterMode: FAIR_FILL
-    food-level-change: false
-    player-hurt: true

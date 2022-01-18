@@ -1,0 +1,60 @@
+MNK:
+  title: MNK
+  min-player-count: 2
+  max-player-count: 2
+  waiting-time: 10
+  time-limit: 600
+  active: true
+  icon: CRAFTING_TABLE
+  view: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  tutorial:
+  - Board game in which two players task turns in placing a block of their color on
+    `m by n` board
+  - The winner being the player who first placed k blocks  of their own color in a
+    row
+  - TEST
+  custom-data:
+    board-pos1:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 4.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    board-pos2:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 4.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    board-block: OAK_WOOD
+    white-play-block: WHITE_WOOL
+    black-play-block: BLACK_WOOL
+    turn-time: 30
+    fly: false
+    length: 5
+    finish-delay: 10
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    food-level-change: true
+    player-hurt: true

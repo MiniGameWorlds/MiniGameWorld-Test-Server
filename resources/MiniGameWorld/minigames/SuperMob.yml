@@ -6,6 +6,7 @@ SuperMob:
   time-limit: 120
   active: true
   icon: ZOMBIE_HEAD
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -28,3 +29,5 @@ SuperMob:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: false
+    player-hurt: true

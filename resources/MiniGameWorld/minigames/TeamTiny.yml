@@ -1,29 +1,25 @@
-BreedMob:
-  title: BreedMob
+TeamTiny:
+  title: TeamTiny
   min-player-count: 1
-  max-player-count: 4
+  max-player-count: 10
   waiting-time: 20
-  time-limit: 120
+  time-limit: 60
   active: true
-  icon: ZOMBIE_SPAWN_EGG
+  icon: STONE_BUTTON
   view: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: -15.55759858226646
+    x: 0.29216942728564027
     y: 157.0
-    z: -29.589191754060746
-    pitch: 0.44973716
-    yaw: -44.102356
+    z: -23.97955262728545
+    pitch: -0.9000194
+    yaw: 89.25018
   tutorial:
-  - 'Kill mob: +1'
-  - 'Death: spectator'
-  - Mobs will lay two mobs when die
+  - 'Hit mob: §a+1'
   custom-data:
-    mobs:
-    - ZOMBIE
-    - SKELETON
-    - SPIDER
+    mob: BAT
+    shootDelay: 1
     chatting: true
     score-notifying: true
     block-break: false
@@ -34,6 +30,6 @@ BreedMob:
     minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
-    color: RED
-    food-level-change: false
+    color: GRAY
+    food-level-change: true
     player-hurt: true

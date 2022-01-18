@@ -6,6 +6,7 @@ MoreHit:
   time-limit: 60
   active: true
   icon: STICK
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -31,3 +32,5 @@ MoreHit:
     groupChat: true
     teamPvp: true
     teamRegisterMode: NONE
+    food-level-change: false
+    player-hurt: true

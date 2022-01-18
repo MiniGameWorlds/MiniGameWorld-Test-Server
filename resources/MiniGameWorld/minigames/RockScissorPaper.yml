@@ -6,6 +6,7 @@ RockScissorPaper:
   time-limit: 30
   active: true
   icon: SHEARS
+  view: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -30,3 +31,5 @@ RockScissorPaper:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
+    food-level-change: false
+    player-hurt: true
