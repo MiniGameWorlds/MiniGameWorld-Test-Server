@@ -3,6 +3,6 @@ settings:
   backup-data-save-delay: 60
   debug-mode: true
   isolated-chat: true
-  isolated-join-quit-message: true
+  isolated-join-quit-message: false
   join-sign-caption: '[MiniGame]'
   leave-sign-caption: '[Leave MiniGame]'
