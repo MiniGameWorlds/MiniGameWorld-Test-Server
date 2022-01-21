@@ -5,7 +5,7 @@
 ## 1. Download resources
 - [wbmMC]
 - [MiniGameWorld]
-- [AllMiniGames] or [Each minigames]
+- [AllMiniGames]
 - [MiniGameWorld-Test-Server Resources]: contains `plugin`, `world`, `config` in [resources](/resources) directory
 
 ## 2. Move resources
@@ -38,8 +38,7 @@
 
 [wbmMC]: https://github.com/worldbiomusic/wbmMC/releases
 [MiniGameWorld]: https://github.com/MiniGameWorlds/MiniGameWorld/releases
-[AllMiniGames]: https://github.com/MiniGameWorlds/AllMiniGames/releases
-[Each minigames]: https://github.com/MiniGameWorlds/MiniGameWorld/discussions/categories/minigames
+[AllMiniGames]: https://github.com/MiniGameWorlds/AllMiniGames
 [MiniGameWorld-Test-Server Resources]: https://github.com/MiniGameWorlds/MiniGameWorld-Test-Server/archive/refs/heads/main.zip
 [MiniGameWorld-Reward]: https://github.com/MiniGameWorlds/MiniGameWorld-Reward/releases
 [MiniGameWorld-Rank]: https://github.com/MiniGameWorlds/MiniGameWorld-Rank/releases
