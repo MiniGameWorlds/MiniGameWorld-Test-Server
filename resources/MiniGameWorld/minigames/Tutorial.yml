@@ -1,0 +1,34 @@
+Tutorial:
+  title: Tutorial
+  min-player-count: 9999
+  max-player-count: 9999
+  waiting-time: 9999
+  time-limit: 1
+  active: true
+  icon: BOOK
+  view: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.5383723048080213
+    y: 154.0
+    z: 0.6354818457054316
+    pitch: 0.5998609
+    yaw: -0.14999683
+  tutorial:
+  - Look around the tutorials of minigame system
+  - '§lWiki: §nhttps://github.com/MiniGameWorlds/MiniGameWorld/blob/main/resources/userWiki/Home.md'
+  custom-data:
+    chatting: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: false
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    food-level-change: false
+    player-hurt: false
