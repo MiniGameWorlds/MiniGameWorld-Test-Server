@@ -1,0 +1,46 @@
+Parkour:
+  title: Parkour
+  min-player-count: 2
+  max-player-count: 10
+  waiting-time: 15
+  time-limit: 300
+  active: true
+  icon: LILY_PAD
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -63.08624077638973
+    y: 157.0
+    z: 11.347871750117996
+    pitch: 9.150186
+    yaw: -83.10193
+  tutorial:
+  - Find and step on the finish block!
+  - 'Many event blocks exist: FINISH, RESPAWN, UP-TP, DOWN-TP, FLICKER, HEAL, JUMP,
+    DEBUFF'
+  custom-data:
+    endless: false
+    event-blocks:
+      respawn: ORANGE_STAINED_GLASS
+      down-teleport: LIGHT_GRAY_STAINED_GLASS
+      flicker: LIGHT_BLUE_STAINED_GLASS
+      up-teleport: GRAY_STAINED_GLASS
+      debuff: MAGENTA_STAINED_GLASS
+      heal: PINK_STAINED_GLASS
+      finish: GLOWSTONE
+      jump: WHITE_STAINED_GLASS
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    food-level-change: true
+    player-hurt: true
+    chat: true

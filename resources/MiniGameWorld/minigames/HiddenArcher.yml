@@ -7,6 +7,7 @@ HiddenArcher:
   active: true
   icon: BOW
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -20,7 +21,6 @@ HiddenArcher:
   - 'Hit by other: die'
   custom-data:
     reloadCoolDown: 3
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -31,8 +31,10 @@ HiddenArcher:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    groupChat: true
-    teamPvp: true
-    teamRegisterMode: FAIR_FILL
     food-level-change: false
     player-hurt: true
+    group-chat: false
+    team-pvp: false
+    team-size: 2
+    team-register-mode: PARTY
+    chat: true

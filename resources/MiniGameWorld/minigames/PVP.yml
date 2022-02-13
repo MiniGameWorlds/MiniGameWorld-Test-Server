@@ -7,6 +7,7 @@ PVP:
   active: true
   icon: STONE_SWORD
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -40,7 +41,6 @@ PVP:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: WOODEN_AXE
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -53,3 +53,4 @@ PVP:
     color: RED
     food-level-change: true
     player-hurt: true
+    chat: true

@@ -7,6 +7,7 @@ RockScissorPaper:
   active: true
   icon: SHEARS
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -20,7 +21,6 @@ RockScissorPaper:
   - Result will be appeared at the end
   - selection can be changed
   custom-data:
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -33,3 +33,4 @@ RockScissorPaper:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

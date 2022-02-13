@@ -7,6 +7,7 @@ TeamTiny:
   active: true
   icon: STONE_BUTTON
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -20,7 +21,6 @@ TeamTiny:
   custom-data:
     mob: BAT
     shootDelay: 1
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -33,3 +33,4 @@ TeamTiny:
     color: GRAY
     food-level-change: true
     player-hurt: true
+    chat: true

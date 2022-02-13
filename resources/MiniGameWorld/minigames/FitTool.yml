@@ -7,6 +7,7 @@ FitTool:
   active: true
   icon: STONE_PICKAXE
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -40,7 +41,6 @@ FitTool:
       z: 31.0
       pitch: 0.0
       yaw: 0.0
-    chatting: false
     score-notifying: true
     block-break: false
     block-place: false
@@ -53,3 +53,4 @@ FitTool:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

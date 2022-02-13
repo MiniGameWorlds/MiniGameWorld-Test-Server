@@ -7,6 +7,7 @@ HitMob:
   active: true
   icon: WOODEN_SWORD
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -30,7 +31,6 @@ HitMob:
       v: 2865
       type: ARROW
     mob: SKELETON
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -43,3 +43,4 @@ HitMob:
     color: RED
     food-level-change: true
     player-hurt: true
+    chat: true

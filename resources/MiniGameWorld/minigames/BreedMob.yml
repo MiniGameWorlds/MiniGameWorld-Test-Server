@@ -7,6 +7,7 @@ BreedMob:
   active: true
   icon: ZOMBIE_SPAWN_EGG
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -24,7 +25,6 @@ BreedMob:
     - ZOMBIE
     - SKELETON
     - SPIDER
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -37,3 +37,4 @@ BreedMob:
     color: RED
     food-level-change: false
     player-hurt: true
+    chat: true

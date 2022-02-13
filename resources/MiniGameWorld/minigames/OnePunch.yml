@@ -7,6 +7,7 @@ OnePunch:
   active: true
   icon: GRASS
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -19,11 +20,10 @@ OnePunch:
   - 'Hit other player: +1'
   - 'Hit by other player: die'
   custom-data:
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
-    pvp: false
+    pvp: true
     pve: false
     inventory-save: true
     minigame-respawn: true
@@ -32,3 +32,4 @@ OnePunch:
     color: RESET
     food-level-change: true
     player-hurt: false
+    chat: true

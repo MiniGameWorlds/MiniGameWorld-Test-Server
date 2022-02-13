@@ -62,7 +62,7 @@ public class ManagementListener implements Listener {
 		p.setFoodLevel(20);
 
 		if (!p.isOp()) {
-			p.setGameMode(GameMode.ADVENTURE);
+			p.setGameMode(GameMode.SURVIVAL);
 		}
 	}
 

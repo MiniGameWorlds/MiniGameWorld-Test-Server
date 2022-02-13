@@ -7,6 +7,7 @@ RemoveBlock:
   active: true
   icon: STONE_PICKAXE
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -42,7 +43,6 @@ RemoveBlock:
     - COBBLESTONE
     - DIRT
     - HAY_BLOCK
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -55,3 +55,4 @@ RemoveBlock:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

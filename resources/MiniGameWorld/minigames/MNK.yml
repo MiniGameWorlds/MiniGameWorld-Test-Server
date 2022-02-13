@@ -7,6 +7,7 @@ MNK:
   active: true
   icon: CRAFTING_TABLE
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -45,7 +46,6 @@ MNK:
     fly: false
     length: 5
     finish-delay: 10
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -58,3 +58,4 @@ MNK:
     color: RESET
     food-level-change: true
     player-hurt: true
+    chat: true

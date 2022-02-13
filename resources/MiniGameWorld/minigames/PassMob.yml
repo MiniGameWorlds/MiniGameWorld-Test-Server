@@ -7,6 +7,7 @@ PassMob:
   active: true
   icon: OAK_FENCE
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -35,7 +36,6 @@ PassMob:
       pitch: 0.0
       yaw: 0.0
     mobSpawnDelay: 15
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -46,8 +46,10 @@ PassMob:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    groupChat: true
-    teamPvp: true
-    teamRegisterMode: FAIR_FILL
     food-level-change: false
     player-hurt: true
+    group-chat: true
+    team-pvp: false
+    team-size: 2
+    team-register-mode: FAIR_FILL
+    chat: true

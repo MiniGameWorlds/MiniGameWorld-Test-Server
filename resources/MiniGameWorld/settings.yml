@@ -6,3 +6,5 @@ settings:
   isolated-join-quit-message: false
   join-sign-caption: '[MiniGame]'
   leave-sign-caption: '[Leave MiniGame]'
+  scoreboard: true
+  scoreboard-update-delay: 10

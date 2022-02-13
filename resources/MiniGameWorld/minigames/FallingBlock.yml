@@ -7,6 +7,7 @@ FallingBlock:
   active: true
   icon: SAND
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -37,7 +38,6 @@ FallingBlock:
       pitch: 0.0
       yaw: 0.0
     removingBlock: STONE
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -50,3 +50,4 @@ FallingBlock:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

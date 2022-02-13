@@ -7,6 +7,7 @@ Tutorial:
   active: true
   icon: BOOK
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -19,7 +20,6 @@ Tutorial:
   - Look around the tutorials of minigame system
   - '§lWiki: §nhttps://github.com/MiniGameWorlds/MiniGameWorld/blob/main/resources/userWiki/Home.md'
   custom-data:
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -32,3 +32,4 @@ Tutorial:
     color: RESET
     food-level-change: false
     player-hurt: false
+    chat: true

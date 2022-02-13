@@ -7,6 +7,7 @@ Spleef:
   active: true
   icon: STONE_SHOVEL
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -37,7 +38,6 @@ Spleef:
       z: 17.0
       pitch: 0.0
       yaw: 0.0
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -50,3 +50,4 @@ Spleef:
     color: WHITE
     food-level-change: true
     player-hurt: true
+    chat: true

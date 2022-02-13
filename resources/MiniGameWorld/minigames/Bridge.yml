@@ -7,6 +7,7 @@ Bridge:
   active: true
   icon: REPEATER
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -23,7 +24,6 @@ Bridge:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: FISHING_ROD
-    chatting: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -36,3 +36,4 @@ Bridge:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

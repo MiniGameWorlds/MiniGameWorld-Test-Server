@@ -7,6 +7,7 @@ ScoreClimbing:
   active: true
   icon: OAK_STAIRS
   view: true
+  scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
@@ -21,7 +22,6 @@ ScoreClimbing:
   - 'Right-Click: check current score(max: 3)'
   - 'Sneak: stop Game and check score'
   custom-data:
-    chatting: true
     score-notifying: false
     block-break: false
     block-place: false
@@ -34,3 +34,4 @@ ScoreClimbing:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true
