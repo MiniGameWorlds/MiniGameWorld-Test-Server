@@ -1,0 +1,60 @@
+FallingItem:
+  title: FallingItem
+  min-player-count: 2
+  max-player-count: 10
+  waiting-time: 20
+  time-limit: 120
+  active: true
+  icon: FEATHER
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -76.56777754414483
+    y: 159.0
+    z: 0.576326515242075
+    pitch: 9.600211
+    yaw: 2.101593
+  tutorial:
+  - Pick up items fallen from the sky!
+  custom-data:
+    items:
+      IRON_INGOT: 2
+      DIAMOND: 4
+      COAL: 1
+      TNT: -3
+      GOLD_INGOT: 3
+      APPLE: 11
+    spawn-delay: 1.0
+    spawn-pos1:
+      ==: org.bukkit.Location
+      world: world
+      x: -72.0
+      y: 162.0
+      z: 5.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn-pos2:
+      ==: org.bukkit.Location
+      world: world
+      x: -83.0
+      y: 162.0
+      z: -5.0
+      pitch: 0.0
+      yaw: 0.0
+    finish-score: 50
+    item-live-time: 10
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: true
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: BLUE
+    food-level-change: false
+    player-hurt: true

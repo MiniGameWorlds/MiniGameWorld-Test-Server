@@ -30,7 +30,7 @@ PVP:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: ARROW
-      amount: 32
+      amount: 3
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: COOKED_PORKCHOP

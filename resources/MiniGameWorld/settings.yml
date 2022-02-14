@@ -8,3 +8,4 @@ settings:
   leave-sign-caption: '[Leave MiniGame]'
   scoreboard: true
   scoreboard-update-delay: 10
+  remove-not-necessary-keys: false

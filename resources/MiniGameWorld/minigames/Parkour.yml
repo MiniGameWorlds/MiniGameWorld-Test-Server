@@ -41,6 +41,6 @@ Parkour:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
     chat: true

@@ -36,5 +36,5 @@ HiddenArcher:
     group-chat: false
     team-pvp: false
     team-size: 2
-    team-register-mode: PARTY
+    team-register-mode: FAIR_FILL
     chat: true

@@ -25,43 +25,43 @@ TimingPVP:
     randomItems:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: DIAMOND_SWORD
+      type: GOLDEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: DIAMOND_AXE
+      type: DIAMOND_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: WOODEN_AXE
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: CROSSBOW
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: GOLDEN_SWORD
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: IRON_SWORD
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: GOLDEN_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
       type: TRIDENT
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: IRON_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: STONE_AXE
+      type: CROSSBOW
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
       type: STONE_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: BOW
+      type: GOLDEN_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: STONE_AXE
     score-notifying: true
     block-break: false
     block-place: false
