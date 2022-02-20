@@ -1,7 +1,7 @@
 FallingBlock:
   title: FallingBlock
   min-player-count: 2
-  max-player-count: 4
+  max-player-count: 10
   waiting-time: 20
   time-limit: 120
   active: true
@@ -11,11 +11,11 @@ FallingBlock:
   location:
     ==: org.bukkit.Location
     world: world
-    x: -23.485580081998144
-    y: 159.0
-    z: 0.4488839600813399
-    pitch: -0.14997007
-    yaw: 87.75011
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - block will be disappeared after you stepped
   - 'remove block with step: +1'
@@ -24,20 +24,21 @@ FallingBlock:
     pos1:
       ==: org.bukkit.Location
       world: world
-      x: -31.0
-      y: 158.0
-      z: 5.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     pos2:
       ==: org.bukkit.Location
       world: world
-      x: -20.0
-      y: 158.0
-      z: -5.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     removingBlock: STONE
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -48,6 +49,5 @@ FallingBlock:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: false
+    food-level-change: true
     player-hurt: true
-    chat: true

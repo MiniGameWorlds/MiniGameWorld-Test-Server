@@ -1,7 +1,7 @@
 Spleef:
   title: Spleef
   min-player-count: 2
-  max-player-count: 20
+  max-player-count: 10
   waiting-time: 20
   time-limit: 300
   active: true
@@ -11,9 +11,9 @@ Spleef:
   location:
     ==: org.bukkit.Location
     world: world
-    x: -52.0
-    y: 157.0
-    z: 12.0
+    x: 0.0
+    y: 4.0
+    z: 0.0
     pitch: 0.0
     yaw: 0.0
   tutorial:
@@ -25,19 +25,20 @@ Spleef:
     pos1:
       ==: org.bukkit.Location
       world: world
-      x: -57.0
-      y: 156.0
-      z: 7.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     pos2:
       ==: org.bukkit.Location
       world: world
-      x: -46.0
-      y: 156.0
-      z: 17.0
+      x: 0.0
+      y: 4.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -50,4 +51,3 @@ Spleef:
     color: WHITE
     food-level-change: true
     player-hurt: true
-    chat: true

@@ -1,5 +1,5 @@
 settings:
-  message-prefix: §lMiniGameWorld§r
+  message-prefix: MiniGameWorld
   backup-data-save-delay: 60
   debug-mode: true
   isolated-chat: true
@@ -9,3 +9,6 @@ settings:
   scoreboard: true
   scoreboard-update-delay: 10
   remove-not-necessary-keys: false
+  min-leave-time: 3
+  start-sound: BLOCK_END_PORTAL_SPAWN
+  finish-sound: ENTITY_ENDER_DRAGON_DEATH

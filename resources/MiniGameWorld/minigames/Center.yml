@@ -1,26 +1,27 @@
-RandomScore:
-  title: RandomScore
+Center:
+  title: Center
   min-player-count: 2
-  max-player-count: 10
-  waiting-time: 10
-  time-limit: 20
+  max-player-count: 5
+  waiting-time: 20
+  time-limit: 120
   active: true
-  icon: DISPENSER
+  icon: END_ROD
   view: true
   scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -90.0149680738462
+    y: 159.5
+    z: -11.561077346126735
+    pitch: 90.0
+    yaw: -2.3954163
   tutorial:
-  - 'Sneak: get random score'
+  - §cNever Sneak!
+  - §cNever FALL!
   custom-data:
     chat: true
-    score-notifying: true
+    score-notifying: false
     block-break: false
     block-place: false
     pvp: false
@@ -29,6 +30,6 @@ RandomScore:
     minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
-    color: RESET
+    color: BLUE
     food-level-change: true
     player-hurt: true

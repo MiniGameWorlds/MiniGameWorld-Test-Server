@@ -11,16 +11,17 @@ RockScissorPaper:
   location:
     ==: org.bukkit.Location
     world: world
-    x: -37.8354510584216
-    y: 160.84185323876338
-    z: 0.3862905696369093
-    pitch: 0.89999205
-    yaw: 89.54877
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - 'enter chat: R or S or P'
   - Result will be appeared at the end
   - selection can be changed
   custom-data:
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -31,6 +32,5 @@ RockScissorPaper:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: false
+    food-level-change: true
     player-hurt: true
-    chat: true

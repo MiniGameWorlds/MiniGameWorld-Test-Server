@@ -1,8 +1,8 @@
 Tutorial:
   title: Tutorial
-  min-player-count: 9999
-  max-player-count: 9999
-  waiting-time: 9999
+  min-player-count: 99
+  max-player-count: 99
+  waiting-time: 99
   time-limit: 1
   active: true
   icon: BOOK
@@ -11,15 +11,16 @@ Tutorial:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.5383723048080213
-    y: 154.0
-    z: 0.6354818457054316
-    pitch: 0.5998609
-    yaw: -0.14999683
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - Look around the tutorials of minigame system
   - '§lWiki: §nhttps://github.com/MiniGameWorlds/MiniGameWorld/blob/main/resources/userWiki/Home.md'
   custom-data:
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -32,4 +33,3 @@ Tutorial:
     color: RESET
     food-level-change: false
     player-hurt: false
-    chat: true

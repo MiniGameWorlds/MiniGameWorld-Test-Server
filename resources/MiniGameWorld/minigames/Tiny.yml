@@ -11,14 +11,15 @@ Tiny:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.4938728798773255
-    y: 157.0
-    z: 27.14308745169117
-    pitch: -4.0500264
-    yaw: 0.15075684
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - 'Hit bat: §a+1'
   custom-data:
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -31,4 +32,3 @@ Tiny:
     color: YELLOW
     food-level-change: true
     player-hurt: true
-    chat: true

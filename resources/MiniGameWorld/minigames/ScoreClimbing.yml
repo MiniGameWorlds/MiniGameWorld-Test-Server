@@ -1,7 +1,7 @@
 ScoreClimbing:
   title: ScoreClimbing
   min-player-count: 2
-  max-player-count: 4
+  max-player-count: 10
   waiting-time: 20
   time-limit: 60
   active: true
@@ -11,17 +11,18 @@ ScoreClimbing:
   location:
     ==: org.bukkit.Location
     world: world
-    x: -42.80537455529769
-    y: 158.0
-    z: -15.811254732797389
-    pitch: 3.2999961
-    yaw: -44.40271
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
-  - 'Every 1 sec: score get to plus until random time and then score get to minus
-    until game end'
-  - 'Right-Click: check current score(max: 3)'
+  - 'Every 1 sec: score get to plus until random timing and after then score get to
+    minus until the game end'
+  - 'Chat: check current score(max: 3)'
   - 'Sneak: stop Game and check score'
   custom-data:
+    chat: true
     score-notifying: false
     block-break: false
     block-place: false
@@ -32,6 +33,5 @@ ScoreClimbing:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: false
+    food-level-change: true
     player-hurt: true
-    chat: true

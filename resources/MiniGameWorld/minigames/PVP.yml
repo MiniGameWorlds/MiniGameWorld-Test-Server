@@ -1,7 +1,7 @@
 PVP:
   title: PVP
   min-player-count: 2
-  max-player-count: 5
+  max-player-count: 10
   waiting-time: 30
   time-limit: 120
   active: true
@@ -11,11 +11,11 @@ PVP:
   location:
     ==: org.bukkit.Location
     world: world
-    x: -24.495412277481673
-    y: 160.0
-    z: 12.42264804369194
-    pitch: 7.8000712
-    yaw: 88.20009
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - 'kill: +1'
   custom-data:
@@ -30,7 +30,7 @@ PVP:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: ARROW
-      amount: 3
+      amount: 32
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: COOKED_PORKCHOP
@@ -41,11 +41,12 @@ PVP:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: WOODEN_AXE
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
     pvp: true
-    pve: false
+    pve: true
     inventory-save: true
     minigame-respawn: true
     live-gamemode: SURVIVAL
@@ -53,4 +54,3 @@ PVP:
     color: RED
     food-level-change: true
     player-hurt: true
-    chat: true

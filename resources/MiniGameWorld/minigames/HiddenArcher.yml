@@ -1,7 +1,7 @@
 HiddenArcher:
   title: HiddenArcher
   min-player-count: 2
-  max-player-count: 8
+  max-player-count: 10
   waiting-time: 20
   time-limit: 180
   active: true
@@ -11,16 +11,17 @@ HiddenArcher:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 26.031812876688328
-    y: 159.8125
-    z: -11.460854706768178
-    pitch: 90.0
-    yaw: -178.35263
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - After game starts, everyone will hide from others with snowballs
   - 'Hit by other: die'
   custom-data:
     reloadCoolDown: 3
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -31,10 +32,9 @@ HiddenArcher:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: false
+    food-level-change: true
     player-hurt: true
     group-chat: false
     team-pvp: false
     team-size: 2
     team-register-mode: FAIR_FILL
-    chat: true

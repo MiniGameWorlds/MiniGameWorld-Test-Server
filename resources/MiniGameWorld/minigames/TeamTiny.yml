@@ -11,16 +11,17 @@ TeamTiny:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.29216942728564027
-    y: 157.0
-    z: -23.97955262728545
-    pitch: -0.9000194
-    yaw: 89.25018
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
   tutorial:
   - 'Hit mob: §a+1'
   custom-data:
     mob: BAT
     shootDelay: 1
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -33,4 +34,3 @@ TeamTiny:
     color: GRAY
     food-level-change: true
     player-hurt: true
-    chat: true

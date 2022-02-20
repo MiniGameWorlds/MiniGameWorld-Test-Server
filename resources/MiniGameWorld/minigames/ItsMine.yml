@@ -1,34 +1,37 @@
-RandomScore:
-  title: RandomScore
+ItsMine:
+  title: ItsMine
   min-player-count: 2
   max-player-count: 10
-  waiting-time: 10
-  time-limit: 20
+  waiting-time: 20
+  time-limit: 120
   active: true
-  icon: DISPENSER
+  icon: DIAMOND
   view: true
   scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -86.77623771590719
+    y: 157.0
+    z: -0.43162676671221556
+    pitch: 8.249959
+    yaw: 162.44891
   tutorial:
-  - 'Sneak: get random score'
+  - Hit and steal item!
   custom-data:
+    item: DIAMOND
+    glow-time: 30
+    finish-score: 100
     chat: true
-    score-notifying: true
+    score-notifying: false
     block-break: false
     block-place: false
-    pvp: false
+    pvp: true
     pve: true
     inventory-save: true
     minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
-    color: RESET
-    food-level-change: true
+    color: RED
+    food-level-change: false
     player-hurt: true
