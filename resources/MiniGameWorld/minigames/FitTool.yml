@@ -11,11 +11,11 @@ FitTool:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 12.466397145734836
+    y: 157.0
+    z: 25.608389946102317
+    pitch: -1.050006
+    yaw: 1.1116943
   tutorial:
   - Break blocks with fit tools
   - 'Breaking block: +1'
@@ -28,20 +28,19 @@ FitTool:
     pos1:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: 15.0
+      y: 159.0
+      z: 31.0
       pitch: 0.0
       yaw: 0.0
     pos2:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: 9.0
+      y: 157.0
+      z: 31.0
       pitch: 0.0
       yaw: 0.0
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -52,5 +51,6 @@ FitTool:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
+    chat: true

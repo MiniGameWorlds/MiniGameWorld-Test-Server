@@ -1,7 +1,7 @@
 PassMob:
   title: PassMob
   min-player-count: 2
-  max-player-count: 10
+  max-player-count: 8
   waiting-time: 20
   time-limit: 120
   active: true
@@ -11,32 +11,31 @@ PassMob:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 25.11985805570092
+    y: 157.0
+    z: 14.412873770799294
+    pitch: -0.6000138
+    yaw: -87.75256
   tutorial:
   - At the game end, winner is the team that has less mobs
   custom-data:
     redLocation:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 0.0
-      z: 0.0
+      x: 26.0
+      y: 157.0
+      z: 10.0
       pitch: 0.0
       yaw: 0.0
     blueLocation:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 0.0
-      z: 0.0
+      x: 25.0
+      y: 157.0
+      z: 14.0
       pitch: 0.0
       yaw: 0.0
     mobSpawnDelay: 15
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -47,9 +46,10 @@ PassMob:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
     group-chat: true
     team-pvp: false
-    team-size: 5
+    team-size: 2
     team-register-mode: NONE
+    chat: true

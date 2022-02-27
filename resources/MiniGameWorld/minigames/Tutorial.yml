@@ -11,16 +11,15 @@ Tutorial:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 0.5383723048080213
+    y: 154.0
+    z: 0.6354818457054316
+    pitch: 0.5998609
+    yaw: -0.14999683
   tutorial:
   - Look around the tutorials of minigame system
   - '§lWiki: §nhttps://github.com/MiniGameWorlds/MiniGameWorld/blob/main/resources/userWiki/Home.md'
   custom-data:
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -33,3 +32,4 @@ Tutorial:
     color: RESET
     food-level-change: false
     player-hurt: false
+    chat: true

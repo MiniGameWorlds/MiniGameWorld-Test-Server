@@ -11,32 +11,32 @@ MNK:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -51.36508254905979
+    y: 158.0
+    z: -11.50146251092952
+    pitch: 8.700017
+    yaw: 90.14987
   tutorial:
   - Board game in which two players task turns in placing a block of their color on
     `m by n` board
   - The winner being the player who first placed k blocks  of their own color in a
     row
-  - Left turn time shows in player's level
+  - TEST
   custom-data:
     board-pos1:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: -56.0
+      y: 157.0
+      z: -8.0
       pitch: 0.0
       yaw: 0.0
     board-pos2:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: -47.0
+      y: 157.0
+      z: -16.0
       pitch: 0.0
       yaw: 0.0
     board-block: OAK_WOOD
@@ -46,7 +46,6 @@ MNK:
     fly: false
     length: 5
     finish-delay: 10
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -59,3 +58,4 @@ MNK:
     color: RESET
     food-level-change: true
     player-hurt: true
+    chat: true

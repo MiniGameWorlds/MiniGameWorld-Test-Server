@@ -11,11 +11,11 @@ FallingItem:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -76.56777754414483
+    y: 159.0
+    z: 0.576326515242075
+    pitch: 9.600211
+    yaw: 2.101593
   tutorial:
   - Pick up items fallen from the sky!
   custom-data:
@@ -25,21 +25,22 @@ FallingItem:
       COAL: 1
       TNT: -3
       GOLD_INGOT: 3
+      APPLE: 11
     spawn-delay: 1.0
     spawn-pos1:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: -72.0
+      y: 162.0
+      z: 5.0
       pitch: 0.0
       yaw: 0.0
     spawn-pos2:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: -83.0
+      y: 162.0
+      z: -5.0
       pitch: 0.0
       yaw: 0.0
     finish-score: 50

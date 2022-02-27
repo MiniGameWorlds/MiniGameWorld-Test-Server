@@ -1,26 +1,34 @@
-TeamTiny:
-  title: TeamTiny
-  min-player-count: 1
+Dropper:
+  title: Dropper
+  min-player-count: 2
   max-player-count: 10
   waiting-time: 20
   time-limit: 60
   active: true
-  icon: STONE_BUTTON
+  icon: OAK_TRAPDOOR
   view: true
   scoreboard: true
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.29216942728564027
-    y: 157.0
-    z: -23.97955262728545
-    pitch: -0.9000194
-    yaw: 89.25018
+    x: -20.767022165139313
+    y: -12.0
+    z: 18.752207482223472
+    pitch: -2.4000394
+    yaw: 43.500084
   tutorial:
-  - 'Hit mob: §a+1'
+  - Drop and get scores!
   custom-data:
-    mob: BAT
-    shootDelay: 1
+    score-blocks:
+      BLUE_WOOL: 1
+      GREEN_WOOL: 2
+      YELLOW_WOOL: 3
+      ORANGE_WOOL: 4
+      RED_WOOL: 5
+      BLACK_WOOL: -3
+    respawn-block: GLASS
+    health: 1
+    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -30,7 +38,6 @@ TeamTiny:
     minigame-respawn: true
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
-    color: GRAY
+    color: RESET
     food-level-change: true
     player-hurt: true
-    chat: true

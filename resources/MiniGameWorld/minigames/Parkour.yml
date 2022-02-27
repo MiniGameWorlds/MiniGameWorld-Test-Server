@@ -11,11 +11,11 @@ Parkour:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -63.08624077638973
+    y: 157.0
+    z: 11.347871750117996
+    pitch: 9.150186
+    yaw: -83.10193
   tutorial:
   - Find and step on the finish block!
   - 'Many event blocks exist: FINISH, RESPAWN, UP-TP, DOWN-TP, FLICKER, HEAL, JUMP,
@@ -31,7 +31,6 @@ Parkour:
       heal: PINK_STAINED_GLASS
       finish: GLOWSTONE
       jump: WHITE_STAINED_GLASS
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -44,3 +43,4 @@ Parkour:
     color: RESET
     food-level-change: false
     player-hurt: true
+    chat: true

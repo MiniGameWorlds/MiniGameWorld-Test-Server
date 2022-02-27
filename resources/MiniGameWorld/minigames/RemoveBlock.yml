@@ -1,7 +1,7 @@
 RemoveBlock:
   title: RemoveBlock
   min-player-count: 1
-  max-player-count: 10
+  max-player-count: 4
   waiting-time: 20
   time-limit: 180
   active: true
@@ -11,11 +11,11 @@ RemoveBlock:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 12.150936761319398
+    y: 158.0
+    z: -25.045277897114595
+    pitch: 22.049768
+    yaw: -179.70207
   tutorial:
   - 'Game Start: +180'
   - 'every 5 second: -1'
@@ -24,17 +24,17 @@ RemoveBlock:
     pos1:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: 7.0
+      y: 157.0
+      z: -31.0
       pitch: 0.0
       yaw: 0.0
     pos2:
       ==: org.bukkit.Location
       world: world
-      x: 0.0
-      y: 4.0
-      z: 0.0
+      x: 17.0
+      y: 157.0
+      z: -20.0
       pitch: 0.0
       yaw: 0.0
     blocks:
@@ -43,7 +43,6 @@ RemoveBlock:
     - COBBLESTONE
     - DIRT
     - HAY_BLOCK
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -54,5 +53,6 @@ RemoveBlock:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
+    chat: true

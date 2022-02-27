@@ -11,11 +11,11 @@ TimingPVP:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -77.54904280361407
+    y: 160.0
+    z: -10.534374958750806
+    pitch: 34.500137
+    yaw: -119.99536
   tutorial:
   - All players' armor and weapons will be changed regularly
   - All players' armor and weapons  will be changed regularly
@@ -23,15 +23,6 @@ TimingPVP:
   custom-data:
     timingDelay: 10
     randomItems:
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: WOODEN_SWORD
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: STONE_SWORD
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: IRON_SWORD
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: GOLDEN_SWORD
@@ -43,26 +34,34 @@ TimingPVP:
       type: WOODEN_AXE
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: STONE_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: IRON_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: GOLDEN_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: DIAMOND_AXE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2865
-      type: BOW
+      type: TRIDENT
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: CROSSBOW
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
-      type: TRIDENT
-    chat: true
+      type: WOODEN_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GOLDEN_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: STONE_AXE
     score-notifying: true
     block-break: false
     block-place: false
@@ -75,3 +74,4 @@ TimingPVP:
     color: RESET
     food-level-change: true
     player-hurt: true
+    chat: true

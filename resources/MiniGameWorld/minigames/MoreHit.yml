@@ -1,7 +1,7 @@
 MoreHit:
   title: MoreHit
   min-player-count: 2
-  max-player-count: 10
+  max-player-count: 6
   waiting-time: 20
   time-limit: 60
   active: true
@@ -11,15 +11,14 @@ MoreHit:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: 25.088700620450247
+    y: 157.0
+    z: 0.2659452144928756
+    pitch: 0.5999994
+    yaw: 179.69734
   tutorial:
   - 'Hit other team member: +1'
   custom-data:
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -30,9 +29,10 @@ MoreHit:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
     group-chat: true
     team-pvp: false
     team-size: 2
     team-register-mode: FAIR_FILL
+    chat: true

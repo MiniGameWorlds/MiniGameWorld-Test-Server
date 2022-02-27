@@ -1,7 +1,7 @@
 BreedMob:
   title: BreedMob
   min-player-count: 1
-  max-player-count: 10
+  max-player-count: 4
   waiting-time: 20
   time-limit: 120
   active: true
@@ -11,11 +11,11 @@ BreedMob:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -15.55759858226646
+    y: 157.0
+    z: -29.589191754060746
+    pitch: 0.44973716
+    yaw: -44.102356
   tutorial:
   - 'Kill mob: +1'
   - 'Death: spectator'
@@ -25,7 +25,6 @@ BreedMob:
     - ZOMBIE
     - SKELETON
     - SPIDER
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -36,5 +35,6 @@ BreedMob:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RED
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
+    chat: true

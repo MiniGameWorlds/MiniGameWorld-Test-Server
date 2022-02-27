@@ -11,14 +11,13 @@ HitMob:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -11.498643104562499
+    y: 160.0
+    z: 25.995429608291317
+    pitch: 0.8999923
+    yaw: -89.85339
   tutorial:
-  - 'Hit mob: §a+1'
-  - 'Die: finish'
+  - 'Hit mob: + damage'
   custom-data:
     tools:
     - ==: org.bukkit.inventory.ItemStack
@@ -30,9 +29,7 @@ HitMob:
     - ==: org.bukkit.inventory.ItemStack
       v: 2865
       type: ARROW
-      amount: 10
     mob: SKELETON
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -45,3 +42,4 @@ HitMob:
     color: RED
     food-level-change: true
     player-hurt: true
+    chat: true

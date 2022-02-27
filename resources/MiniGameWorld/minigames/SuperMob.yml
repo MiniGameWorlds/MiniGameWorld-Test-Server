@@ -1,7 +1,7 @@
 SuperMob:
   title: SuperMob
   min-player-count: 2
-  max-player-count: 10
+  max-player-count: 5
   waiting-time: 30
   time-limit: 120
   active: true
@@ -11,15 +11,14 @@ SuperMob:
   location:
     ==: org.bukkit.Location
     world: world
-    x: 0.0
-    y: 4.0
-    z: 0.0
-    pitch: 0.0
-    yaw: 0.0
+    x: -24.392951019267826
+    y: 157.0
+    z: -11.896898078355976
+    pitch: 10.800106
+    yaw: 90.74982
   tutorial:
   - 'Hit Super Mob: +(damage)'
   custom-data:
-    chat: true
     score-notifying: true
     block-break: false
     block-place: false
@@ -30,5 +29,6 @@ SuperMob:
     live-gamemode: SURVIVAL
     dead-gamemode: SPECTATOR
     color: RESET
-    food-level-change: true
+    food-level-change: false
     player-hurt: true
+    chat: true
