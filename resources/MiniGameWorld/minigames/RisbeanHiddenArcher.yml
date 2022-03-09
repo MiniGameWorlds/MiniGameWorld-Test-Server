@@ -1,0 +1,43 @@
+RisbeanHiddenArcher:
+  title: 히든아처
+  min-player-count: 2
+  max-player-count: 10
+  waiting-time: 20
+  time-limit: 180
+  active: true
+  icon: SNOWBALL
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 4.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  tutorial:
+  - 게임 시작 후, 모든 플레이어는 서로 보이지 않습니다
+  - 주어지는 눈덩이로 보이지 않는 상대방을 맞춰 탈락시키세요!
+  - 다른 사람을 맞힌 플레이어는 폭죽으로 위치가 노출됩니다
+  custom-data:
+    reload-cool-down: 3
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    food-level-change: true
+    player-hurt: true
+    group-chat: false
+    team-pvp: false
+    team-size: 2
+    team-register-mode: FAIR_FILL
+    last-visible-time: 30
+    start-delay: 3

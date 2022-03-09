@@ -1,0 +1,64 @@
+StandOnBlock:
+  title: StandOnBlock
+  min-player-count: 2
+  max-player-count: 10
+  waiting-time: 20
+  time-limit: 120
+  active: true
+  icon: ARMOR_STAND
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -103.53515670655946
+    y: 157.0
+    z: 13.89455820746007
+    pitch: 11.849937
+    yaw: -147.02135
+  tutorial:
+  - There are random blocks
+  - Only one block will be remained while other blocks will be disappeared
+  - Never fall from the block
+  custom-data:
+    blocks:
+    - RED_WOOL
+    - ORANGE_WOOL
+    - YELLOW_WOOL
+    - GREEN_WOOL
+    - BLUE_WOOL
+    - PURPLE_WOOL
+    - WHITE_WOOL
+    - BLACK_WOOL
+    disappear-delay: 5.0
+    disappear-delay-decrease: 0.2
+    pos1:
+      ==: org.bukkit.Location
+      world: world
+      x: -109.0
+      y: 156.0
+      z: 17.0
+      pitch: 0.0
+      yaw: 0.0
+    pos2:
+      ==: org.bukkit.Location
+      world: world
+      x: -98.0
+      y: 156.0
+      z: 7.0
+      pitch: 0.0
+      yaw: 0.0
+    void-time: 3.0
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: GREEN
+    food-level-change: false
+    player-hurt: true
