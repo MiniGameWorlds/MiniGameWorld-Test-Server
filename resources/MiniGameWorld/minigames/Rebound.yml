@@ -1,0 +1,40 @@
+Rebound:
+  title: Rebound
+  min-players: 2
+  max-players: 20
+  waiting-time: 20
+  play-time: 180
+  active: true
+  icon: DISPENSER
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -124.53123992714384
+    y: 155.0
+    z: -6.050917939411457
+    pitch: 43.649986
+    yaw: -71.884766
+  tutorial:
+  - Shoot others in zero gravity
+  - Shooting gives recoil(rebound)
+  - Player who has highest score will be glow
+  custom-data:
+    shoot-cooldown: 1.0
+    shoot-power: 1.0
+    reverse-mode: false
+    projectile-gravity: true
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: false
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: AQUA
+    food-level-change: true
+    player-hurt: false

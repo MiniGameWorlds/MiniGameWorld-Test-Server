@@ -1,0 +1,48 @@
+Clock:
+  title: Clock
+  min-players: 2
+  max-players: 10
+  waiting-time: 20
+  play-time: 120
+  active: true
+  icon: CLOCK
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -116.0
+    y: 157.0
+    z: 12.5
+    pitch: 0.0
+    yaw: 0.0
+  tutorial:
+  - Jump over the clock hand!
+  custom-data:
+    center:
+      ==: org.bukkit.Location
+      world: world
+      x: -116.0
+      y: 157.0
+      z: 12.5
+      pitch: 0.0
+      yaw: 0.0
+    hand-length: 7.0
+    hand-speed: 0.0
+    hand-speed-increment: 0.01
+    clockwise: true
+    random-direction-mode: true
+    particle: FLAME
+    chat: true
+    score-notifying: false
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: RESET
+    food-level-change: false
+    player-hurt: false

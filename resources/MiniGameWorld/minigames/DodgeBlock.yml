@@ -1,0 +1,57 @@
+DodgeBlock:
+  title: DodgeBlock
+  min-players: 2
+  max-players: 10
+  waiting-time: 20
+  play-time: 120
+  active: true
+  icon: GLOWSTONE
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -101.70926392911079
+    y: 135.0
+    z: -10.58029931188241
+    pitch: 12.150077
+    yaw: 122.70035
+  tutorial:
+  - Dodge the falling anvils!
+  custom-data:
+    blocks:
+    - GLOWSTONE
+    - LANTERN
+    - LANTERN
+    - CAKE
+    spawn-rate: 1
+    spawn-rate-increase: 1
+    pos1:
+      ==: org.bukkit.Location
+      world: world
+      x: -109.0
+      y: 161.0
+      z: -17.0
+      pitch: 0.0
+      yaw: 0.0
+    pos2:
+      ==: org.bukkit.Location
+      world: world
+      x: -98.0
+      y: 161.0
+      z: -7.0
+      pitch: 0.0
+      yaw: 0.0
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: GRAY
+    food-level-change: false
+    player-hurt: true

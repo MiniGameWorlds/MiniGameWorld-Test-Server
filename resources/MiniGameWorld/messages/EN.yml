@@ -1,0 +1,40 @@
+# Support color code (e.g. '§c Hello §f')
+# Wrap with "'", if message has some symbols like (,{,[,<,#,@ ... etc
+# Each message has different placeholders
+# Each language file can has different custom placeholders
+message:
+  MiniGame:
+    play-time-in-rule: 'Play time: <play-time> <sec>'
+    need-players: need more <need-player-count> players
+    join-message: <player> joined the <minigame> (<player-count>/<max-player-count>)
+    leave-message: '<player> left the <minigame> (<player-count>/<max-player-count>)
+      (Reason: <reason>)'
+    group-chat: Group-chat
+    before-start: Before start
+  MiniGameMenu:
+    start-in-time: Starting in... <left-time> <sec>
+    finish-in: Finish in... <left-time> <sec>
+  common:
+    score: Score
+    start: Start
+    finish: Finish
+    leave: Leave
+    rule: Rule
+    exception: Exception
+    team: Team
+    info: Info
+    none: None
+    minigame: Minigame
+    party: Party
+    player: Player
+    play-time: Play time
+    type: Type
+    sec: <sec>
+    min: <min>
+    hour: <hour>
+    minimum: minimum
+    maximum: maximum
+  custom:
+    sec: sec
+    min: min
+    hour: hour

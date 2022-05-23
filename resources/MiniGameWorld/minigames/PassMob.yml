@@ -1,9 +1,9 @@
 PassMob:
   title: PassMob
-  min-player-count: 2
-  max-player-count: 8
+  min-players: 2
+  max-players: 10
   waiting-time: 20
-  time-limit: 120
+  play-time: 120
   active: true
   icon: OAK_FENCE
   view: true
@@ -53,3 +53,20 @@ PassMob:
     team-size: 2
     team-register-mode: NONE
     chat: true
+    red-location:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    blue-location:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    mob-spawn-delay: 15

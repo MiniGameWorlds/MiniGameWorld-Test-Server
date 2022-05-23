@@ -1,9 +1,9 @@
 BreedMob:
   title: BreedMob
-  min-player-count: 1
-  max-player-count: 4
+  min-players: 1
+  max-players: 10
   waiting-time: 20
-  time-limit: 120
+  play-time: 120
   active: true
   icon: ZOMBIE_SPAWN_EGG
   view: true

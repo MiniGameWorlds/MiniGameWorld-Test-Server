@@ -1,0 +1,40 @@
+# Поддержка цветового кода (например, '§c Hello §f')
+# Обернуть "'", если сообщение содержит некоторые символы, такие как (,{,[,<,#,@ ... и т.д.
+# Каждое сообщение имеет разные заполнители
+# Каждый языковой файл может иметь разные пользовательские заполнители
+message:
+  MiniGame:
+    play-time-in-rule: 'Длительность игры: <play-time> <sec>'
+    need-players: В игре должно быть более <need-player-count> игроков
+    join-message: <player> присоединился к <minigame> (<player-count>/<max-player-count>)
+    leave-message: '<player> покинул <minigame> (<player-count>/<max-player-count>)
+      (Причина: <reason>)'
+    group-chat: Групповой чат
+    before-start: Перед стартом
+  MiniGameMenu:
+    start-in-time: Старт через... <left-time> <sec>
+    finish-in: Финиш через... <left-time> <sec>
+  common:
+    score: Счёт
+    start: Старт
+    finish: Финиш
+    leave: Выход
+    rule: Правила
+    exception: Исключение
+    team: Команда
+    info: информация
+    none: нет
+    minigame: мини-игра
+    party: вечеринка
+    player: игрок
+    play-time: время воспроизведения
+    type: Тип
+    sec: <sec>
+    min: <min>
+    hour: <hour>
+    minimum: минимум
+    maximum: максимум
+  custom:
+    sec: сек
+    min: мин
+    hour: час

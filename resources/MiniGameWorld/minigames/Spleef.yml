@@ -1,9 +1,9 @@
 Spleef:
   title: Spleef
-  min-player-count: 2
-  max-player-count: 20
+  min-players: 2
+  max-players: 10
   waiting-time: 20
-  time-limit: 300
+  play-time: 300
   active: true
   icon: STONE_SHOVEL
   view: true

@@ -1,9 +1,9 @@
 FallingBlock:
   title: FallingBlock
-  min-player-count: 2
-  max-player-count: 4
+  min-players: 2
+  max-players: 10
   waiting-time: 20
-  time-limit: 120
+  play-time: 120
   active: true
   icon: SAND
   view: true
@@ -51,3 +51,4 @@ FallingBlock:
     food-level-change: false
     player-hurt: true
     chat: true
+    removing-block: STONE

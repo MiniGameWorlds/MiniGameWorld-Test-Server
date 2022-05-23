@@ -12,3 +12,6 @@ settings:
   min-leave-time: 3
   start-sound: BLOCK_END_PORTAL_SPAWN
   finish-sound: ENTITY_ENDER_DRAGON_DEATH
+  check-update: true
+  edit-messages: false
+  ingame-leave: false

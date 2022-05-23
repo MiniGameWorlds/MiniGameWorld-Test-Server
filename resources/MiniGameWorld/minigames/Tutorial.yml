@@ -1,9 +1,9 @@
 Tutorial:
   title: Tutorial
-  min-player-count: 99
-  max-player-count: 99
+  min-players: 99
+  max-players: 99
   waiting-time: 99
-  time-limit: 1
+  play-time: 1
   active: true
   icon: BOOK
   view: true

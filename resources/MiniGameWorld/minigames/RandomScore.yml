@@ -1,9 +1,9 @@
 RandomScore:
   title: RandomScore
-  min-player-count: 2
-  max-player-count: 10
+  min-players: 2
+  max-players: 10
   waiting-time: 10
-  time-limit: 20
+  play-time: 20
   active: true
   icon: DISPENSER
   view: true

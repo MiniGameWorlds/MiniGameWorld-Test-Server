@@ -1,9 +1,9 @@
 Bridge:
   title: Bridge
-  min-player-count: 2
-  max-player-count: 4
+  min-players: 1
+  max-players: 10
   waiting-time: 20
-  time-limit: 180
+  play-time: 180
   active: true
   icon: REPEATER
   view: true
@@ -22,7 +22,7 @@ Bridge:
   custom-data:
     items:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: FISHING_ROD
     score-notifying: true
     block-break: false
@@ -37,3 +37,4 @@ Bridge:
     food-level-change: false
     player-hurt: true
     chat: true
+    skill-cooldown: 10

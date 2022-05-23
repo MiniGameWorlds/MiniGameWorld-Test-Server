@@ -1,9 +1,9 @@
 TimingPVP:
   title: TimingPVP
-  min-player-count: 2
-  max-player-count: 10
+  min-players: 2
+  max-players: 10
   waiting-time: 15
-  time-limit: 90
+  play-time: 90
   active: true
   icon: CHORUS_FRUIT
   view: true
@@ -24,43 +24,43 @@ TimingPVP:
     timingDelay: 10
     randomItems:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: GOLDEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: DIAMOND_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: WOODEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: TRIDENT
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: CROSSBOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: IRON_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: IRON_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: DIAMOND_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: STONE_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: GOLDEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2865
+      v: 2975
       type: STONE_AXE
     score-notifying: true
     block-break: false
@@ -75,3 +75,44 @@ TimingPVP:
     food-level-change: true
     player-hurt: true
     chat: true
+    timing-delay: 10
+    random-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: WOODEN_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: GOLDEN_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: WOODEN_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: IRON_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: GOLDEN_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: CROSSBOW
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: TRIDENT
