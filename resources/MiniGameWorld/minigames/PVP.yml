@@ -22,24 +22,24 @@ PVP:
     health: 30
     items:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: STONE_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: ARROW
       amount: 3
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: COOKED_PORKCHOP
       amount: 10
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: GOLDEN_APPLE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_AXE
     score-notifying: true
     block-break: false

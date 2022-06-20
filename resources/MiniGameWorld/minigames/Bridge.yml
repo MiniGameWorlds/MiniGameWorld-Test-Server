@@ -22,7 +22,7 @@ Bridge:
   custom-data:
     items:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: FISHING_ROD
     score-notifying: true
     block-break: false

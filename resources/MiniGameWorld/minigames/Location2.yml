@@ -1,0 +1,34 @@
+Location2:
+  title: Solo Battle Hub
+  min-players: 1
+  max-players: 1
+  waiting-time: 1
+  play-time: 1
+  active: true
+  icon: EMERALD_BLOCK
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -4.583022948096198
+    y: 160.0
+    z: 0.521753346483674
+    pitch: 21.300016
+    yaw: 90.45012
+  tutorial:
+  - ''
+  custom-data:
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: true
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: GREEN
+    food-level-change: true
+    player-hurt: true

@@ -24,43 +24,43 @@ TimingPVP:
     timingDelay: 10
     randomItems:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: GOLDEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: DIAMOND_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: TRIDENT
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: CROSSBOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: IRON_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: IRON_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: DIAMOND_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: STONE_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: GOLDEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: STONE_AXE
     score-notifying: true
     block-break: false
@@ -78,41 +78,41 @@ TimingPVP:
     timing-delay: 10
     random-items:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: STONE_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: IRON_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: GOLDEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: DIAMOND_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: STONE_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: IRON_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: GOLDEN_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: DIAMOND_AXE
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: CROSSBOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: TRIDENT

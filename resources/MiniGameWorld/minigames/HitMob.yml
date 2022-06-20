@@ -21,13 +21,13 @@ HitMob:
   custom-data:
     tools:
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: WOODEN_SWORD
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: BOW
     - ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3105
       type: ARROW
     mob: SKELETON
     score-notifying: true

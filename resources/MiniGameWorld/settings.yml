@@ -1,17 +1,17 @@
 settings:
-  message-prefix: MiniGameWorld
+  message-prefix: §lMiniGameWorld§r
   backup-data-save-delay: 60
-  debug-mode: true
+  debug-mode: false
   isolated-chat: true
-  isolated-join-quit-message: false
+  isolated-join-quit-message: true
   join-sign-caption: '[MiniGame]'
   leave-sign-caption: '[Leave MiniGame]'
   scoreboard: true
   scoreboard-update-delay: 10
   remove-not-necessary-keys: false
   min-leave-time: 3
-  start-sound: BLOCK_END_PORTAL_SPAWN
-  finish-sound: ENTITY_ENDER_DRAGON_DEATH
-  check-update: true
+  start-sound: BLOCK_NOTE_BLOCK_CHIME
+  finish-sound: BLOCK_NOTE_BLOCK_BELL
+  check-update: false
   edit-messages: false
   ingame-leave: false

@@ -1,0 +1,41 @@
+HungryFishing:
+  title: HungryFishing
+  min-players: 1
+  max-players: 10
+  waiting-time: 20
+  play-time: 180
+  active: true
+  icon: FISHING_ROD
+  view: true
+  scoreboard: true
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -141.78895111273894
+    y: 157.0
+    z: 16.504893346738903
+    pitch: -7.050005
+    yaw: -176.84966
+  tutorial:
+  - Fish and fill your hunger with items!
+  custom-data:
+    catch-items:
+      COOKIE: 40
+      COOKED_PORKCHOP: 10
+      MELON_SLICE: 30
+      CARROT: 20
+    hunger: 1
+    fail-hunger: 2
+    chat: true
+    score-notifying: true
+    block-break: false
+    block-place: false
+    pvp: false
+    pve: false
+    inventory-save: true
+    minigame-respawn: true
+    live-gamemode: SURVIVAL
+    dead-gamemode: SPECTATOR
+    color: AQUA
+    food-level-change: true
+    player-hurt: false

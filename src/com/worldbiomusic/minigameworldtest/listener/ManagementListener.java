@@ -7,6 +7,7 @@ import java.util.UUID;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
+import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -172,6 +173,9 @@ public class ManagementListener implements Listener {
 				p.setHealth(p.getHealthScale());
 				p.setFoodLevel(20);
 				p.sendTitle(ChatColor.GREEN + "Heal", "", 10, 20, 10);
+				
+				// sound
+				p.playSound(p.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 10.0F, 1.0F);
 			}
 		}
 	}

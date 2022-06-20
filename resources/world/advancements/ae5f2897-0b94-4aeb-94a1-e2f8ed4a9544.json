@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2022-05-23 22:48:54 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2022-02-12 02:36:50 +0900"
@@ -92,6 +98,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2022-02-27 22:30:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2022-05-23 22:48:54 +0900"
     },
     "done": true
   },
@@ -411,7 +423,10 @@
     "criteria": {
       "honey_bottle": "2021-12-19 00:15:24 +0900",
       "chorus_fruit": "2022-02-09 02:41:40 +0900",
-      "golden_apple": "2021-12-19 00:14:40 +0900"
+      "cooked_beef": "2022-06-04 00:39:10 +0900",
+      "golden_apple": "2021-12-19 00:14:40 +0900",
+      "cookie": "2022-06-04 00:38:02 +0900",
+      "melon_slice": "2022-06-04 00:38:00 +0900"
     },
     "done": false
   },
@@ -502,6 +517,12 @@
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2021-12-18 23:17:35 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2022-05-23 22:48:54 +0900"
     },
     "done": true
   },
@@ -1319,6 +1340,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2022-05-23 22:48:53 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2021-12-14 05:07:50 +0900"
@@ -1637,6 +1664,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2022-05-23 22:48:53 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_carpet": {
     "criteria": {
       "has_purple_wool": "2022-03-09 17:33:21 +0900"
@@ -1763,6 +1796,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2022-06-04 00:36:43 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2022-02-12 02:36:53 +0900"
@@ -1886,6 +1925,12 @@
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_blue_wool": "2022-02-27 19:30:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2022-05-23 22:48:53 +0900"
     },
     "done": true
   },
