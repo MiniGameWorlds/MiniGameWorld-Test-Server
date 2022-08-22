@@ -44,7 +44,7 @@
 
 
 
-[wbmMC]: https://github.com/worldbiomusic/wbmMC/releases
+[wbmMC]: https://github.com/etc-repo/wbmMC/releases
 [MiniGameWorld]: https://github.com/MiniGameWorlds/MiniGameWorld/releases
 [AllMiniGames]: https://github.com/MiniGameWorlds/AllMiniGames
 [MiniGameWorld-Test-Server Resources]: https://github.com/MiniGameWorlds/MiniGameWorld-Test-Server/archive/refs/heads/main.zip
